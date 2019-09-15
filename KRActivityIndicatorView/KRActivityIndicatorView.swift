@@ -337,7 +337,7 @@ public final class KRActivityIndicatorView: NSView {
     /// Default type. Default value is .BallSpinFadeLoader.
     public static var DEFAULT_TYPE: KRActivityIndicatorType = .blank
     
-    /// Default color. Default value is NSColor.white.
+    /// Default color. Default value is Color.white.
     public static var DEFAULT_COLOR = NSColor.white
     
     /// Default padding. Default value is 0.0 - 0% padding
@@ -358,7 +358,7 @@ public final class KRActivityIndicatorView: NSView {
     /// Default font of message displayed in UI blocker. Default value is bold system font, size 20.
     public static var DEFAULT_BLOCKER_MESSAGE_FONT = NSFont.boldSystemFont(ofSize: 20)
     
-    /// Default background color of UI blocker. Default value is UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
+    /// Default background color of UI blocker. Default value is NSColor(red: 0, green: 0, blue: 0, alpha: 0.5)
     public static var DEFAULT_BLOCKER_BACKGROUND_COLOR = NSColor(red: 0, green: 0, blue: 0, alpha: 0.5)
     
     /// Animation type.
@@ -397,7 +397,7 @@ public final class KRActivityIndicatorView: NSView {
      */
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        //backgroundColor = NSColor.clear
+        //backgroundColor = Color.clear
         isHidden = true
     }
     
